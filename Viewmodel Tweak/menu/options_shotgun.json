@@ -1,0 +1,193 @@
+{
+	"menu_id" : "vmt_shotgunmenu",
+	"parent_menu_id" : "vmt_mainmenu",
+	"title" : "vmt_shotgunmenu_title",
+	"description" : "vmt_shotgunmenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_shotgun_x",
+			"title" : "shotgun_x_title",
+			"description" : "x_desc",
+			"callback" : "vmt_shotgun_x_call",
+			"value" : "shotgun_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_shotgun_y",
+			"title" : "shotgun_y_title",
+			"description" : "y_desc",
+			"callback" : "vmt_shotgun_y_call",
+			"value" : "shotgun_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_shotgun_z",
+			"title" : "shotgun_z_title",
+			"description" : "z_desc",
+			"callback" : "vmt_shotgun_z_call",
+			"value" : "shotgun_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_shotgun_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_shotgun_reset_call"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "vmt_boot",
+			"title" : "boot_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_boot_call",
+			"value" : "boot_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_m37",
+			"title" : "m37_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_m37_call",
+			"value" : "m37_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_rota",
+			"title" : "rota_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_rota_call",
+			"value" : "rota_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_basset",
+			"title" : "basset_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_basset_call",
+			"value" : "basset_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_saiga",
+			"title" : "saiga_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_saiga_call",
+			"value" : "saiga_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_b682",
+			"title" : "b682_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_b682_call",
+			"value" : "b682_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_serbu",
+			"title" : "serbu_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_serbu_call",
+			"value" : "serbu_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_benelli",
+			"title" : "benelli_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_benelli_call",
+			"value" : "benelli_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_huntsman",
+			"title" : "huntsman_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_huntsman_call",
+			"value" : "huntsman_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_spas12",
+			"title" : "spas12_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_spas12_call",
+			"value" : "spas12_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_ksg",
+			"title" : "ksg_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_ksg_call",
+			"value" : "ksg_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_r870",
+			"title" : "r870_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_r870_call",
+			"value" : "r870_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_aa12",
+			"title" : "aa12_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_aa12_call",
+			"value" : "aa12_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_striker",
+			"title" : "striker_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_striker_call",
+			"value" : "striker_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_judge",
+			"title" : "judge_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_judge_call",
+			"value" : "judge_enabled",
+			"default_value" : true
+		}
+	]
+}

@@ -1,0 +1,274 @@
+{
+	"menu_id" : "vmt_riflemenu",
+	"parent_menu_id" : "vmt_mainmenu",
+	"title" : "vmt_riflemenu_title",
+	"description" : "vmt_riflemenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_rifle_x",
+			"title" : "rifle_x_title",
+			"description" : "x_desc",
+			"callback" : "vmt_rifle_x_call",
+			"value" : "rifle_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_rifle_y",
+			"title" : "rifle_y_title",
+			"description" : "y_desc",
+			"callback" : "vmt_rifle_y_call",
+			"value" : "rifle_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_rifle_z",
+			"title" : "rifle_z_title",
+			"description" : "z_desc",
+			"callback" : "vmt_rifle_z_call",
+			"value" : "rifle_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_rifle_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_rifle_reset_call"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "vmt_akm",
+			"title" : "akm_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_akm_call",
+			"value" : "akm_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_ak5",
+			"title" : "ak5_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_ak5_call",
+			"value" : "ak5_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_flint",
+			"title" : "flint_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_flint_call",
+			"value" : "flint_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_ak74",
+			"title" : "ak74_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_ak74_call",
+			"value" : "ak74_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_amcar",
+			"title" : "amcar_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_amcar_call",
+			"value" : "amcar_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_m16",
+			"title" : "m16_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_m16_call",
+			"value" : "m16_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_tecci",
+			"title" : "tecci_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_tecci_call",
+			"value" : "tecci_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_new_m4",
+			"title" : "new_m4_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_new_m4_call",
+			"value" : "new_m4_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_sub2000",
+			"title" : "sub2000_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_sub2000_call",
+			"value" : "sub2000_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_famas",
+			"title" : "famas_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_famas_call",
+			"value" : "famas_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_s552",
+			"title" : "s552_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_s552_call",
+			"value" : "s552_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_scar",
+			"title" : "scar_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_scar_call",
+			"value" : "scar_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_ching",
+			"title" : "ching_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_ching_call",
+			"value" : "ching_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_galil",
+			"title" : "galil_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_galil_call",
+			"value" : "galil_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_g3",
+			"title" : "g3_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_g3_call",
+			"value" : "g3_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_akm_gold",
+			"title" : "akm_gold_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_akm_gold_call",
+			"value" : "akm_gold_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_g36",
+			"title" : "g36_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_g36_call",
+			"value" : "g36_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_vhs",
+			"title" : "vhs_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_vhs_call",
+			"value" : "vhs_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_contraband",
+			"title" : "contraband_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_contraband_call",
+			"value" : "contraband_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_new_m14",
+			"title" : "new_m14_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_new_m14_call",
+			"value" : "new_m14_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_l85a2",
+			"title" : "l85a2_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_l85a2_call",
+			"value" : "l85a2_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_aug",
+			"title" : "aug_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_aug_call",
+			"value" : "aug_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_corgi",
+			"title" : "corgi_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_corgi_call",
+			"value" : "corgi_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_asval",
+			"title" : "asval_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_asval_call",
+			"value" : "asval_enabled",
+			"default_value" : true
+		}
+	]
+}

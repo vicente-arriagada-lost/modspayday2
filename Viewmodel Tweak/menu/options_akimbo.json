@@ -1,0 +1,463 @@
+{
+	"menu_id" : "vmt_akimbomenu",
+	"parent_menu_id" : "vmt_mainmenu",
+	"title" : "vmt_akimbomenu_title",
+	"description" : "vmt_akimbomenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_akimbo_x",
+			"title" : "akimbo_x_title",
+			"description" : "x_desc",
+			"callback" : "vmt_akimbo_x_call",
+			"value" : "akimbo_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_akimbo_y",
+			"title" : "akimbo_y_title",
+			"description" : "y_desc",
+			"callback" : "vmt_akimbo_y_call",
+			"value" : "akimbo_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_akimbo_z",
+			"title" : "akimbo_z_title",
+			"description" : "z_desc",
+			"callback" : "vmt_akimbo_z_call",
+			"value" : "akimbo_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_akimbo_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_akimbo_reset_call"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_lemming",
+			"title" : "x_lemming_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_lemming_call",
+			"value" : "x_lemming_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_sparrow",
+			"title" : "x_sparrow_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_sparrow_call",
+			"value" : "x_sparrow_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_b92fs",
+			"title" : "x_b92fs_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_b92fs_call",
+			"value" : "x_b92fs_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_tec9",
+			"title" : "x_tec9_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_tec9_call",
+			"value" : "x_tec9_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_rage",
+			"title" : "x_rage_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_rage_call",
+			"value" : "x_rage_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_c96",
+			"title" : "x_c96_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_c96_call",
+			"value" : "x_c96_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_mp9",
+			"title" : "x_mp9_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_mp9_call",
+			"value" : "x_mp9_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_hajk",
+			"title" : "x_hajk_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_hajk_call",
+			"value" : "x_hajk_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_chinchilla",
+			"title" : "x_chinchilla_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_chinchilla_call",
+			"value" : "x_chinchilla_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_m1928",
+			"title" : "x_m1928_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_m1928_call",
+			"value" : "x_m1928_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_g17",
+			"title" : "x_g17_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_g17_call",
+			"value" : "x_g17_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_jowi",
+			"title" : "jowi_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_jowi_call",
+			"value" : "jowi_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_g22c",
+			"title" : "x_g22c_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_g22c_call",
+			"value" : "x_g22c_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_scorpion",
+			"title" : "x_scorpion_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_scorpion_call",
+			"value" : "x_scorpion_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_mp5",
+			"title" : "x_mp5_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_mp5_call",
+			"value" : "x_mp5_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_packrat",
+			"title" : "x_packrat_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_packrat_call",
+			"value" : "x_packrat_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_1911",
+			"title" : "x_1911_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_1911_call",
+			"value" : "x_1911_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_shrew",
+			"title" : "x_shrew_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_shrew_call",
+			"value" : "x_shrew_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_deagle",
+			"title" : "x_deagle_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_deagle_call",
+			"value" : "x_deagle_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_rota",
+			"title" : "x_rota_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_rota_call",
+			"value" : "x_rota_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_ppk",
+			"title" : "x_ppk_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_ppk_call",
+			"value" : "x_ppk_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_sr2",
+			"title" : "x_sr2_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_sr2_call",
+			"value" : "x_sr2_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_usp",
+			"title" : "x_usp_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_usp_call",
+			"value" : "x_usp_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_schakal",
+			"title" : "x_schakal_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_schakal_call",
+			"value" : "x_schakal_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_cobray",
+			"title" : "x_cobray_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_cobray_call",
+			"value" : "x_cobray_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_judge",
+			"title" : "x_judge_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_judge_call",
+			"value" : "x_judge_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_p90",
+			"title" : "x_p90_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_p90_call",
+			"value" : "x_p90_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_akmsu",
+			"title" : "x_akmsu_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_akmsu_call",
+			"value" : "x_akmsu_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_polymer",
+			"title" : "x_polymer_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_polymer_call",
+			"value" : "x_polymer_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_hs2000",
+			"title" : "x_hs2000_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_hs2000_call",
+			"value" : "x_hs2000_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_erma",
+			"title" : "x_erma_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_erma_call",
+			"value" : "x_erma_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_mac10",
+			"title" : "x_mac10_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_mac10_call",
+			"value" : "x_mac10_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_2006m",
+			"title" : "x_2006m_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_2006m_call",
+			"value" : "x_2006m_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_baka",
+			"title" : "x_baka_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_baka_call",
+			"value" : "x_baka_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_olympic",
+			"title" : "x_olympic_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_olympic_call",
+			"value" : "x_olympic_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_breech",
+			"title" : "x_breech_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_breech_call",
+			"value" : "x_breech_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_sterling",
+			"title" : "x_sterling_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_sterling_call",
+			"value" : "x_sterling_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_g18c",
+			"title" : "x_g18c_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_g18c_call",
+			"value" : "x_g18c_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_p226",
+			"title" : "x_p226_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_p226_call",
+			"value" : "x_p226_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_mp7",
+			"title" : "x_mp7_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_mp7_call",
+			"value" : "x_mp7_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_m45",
+			"title" : "x_m45_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_m45_call",
+			"value" : "x_m45_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_coal",
+			"title" : "x_coal_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_coal_call",
+			"value" : "x_coal_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_uzi",
+			"title" : "x_uzi_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_uzi_call",
+			"value" : "x_uzi_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_pl14",
+			"title" : "x_pl14_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_pl14_call",
+			"value" : "x_pl14_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_x_basset",
+			"title" : "x_basset_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_x_basset_call",
+			"value" : "x_basset_enabled",
+			"default_value" : true
+		}
+	]
+}

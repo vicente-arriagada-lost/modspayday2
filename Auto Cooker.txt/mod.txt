@@ -1,0 +1,37 @@
+{
+    "name": "AutoCooker",
+    "description": "Let the meth cook by itself.",
+    "author": "US_SNIPER",
+    "version": "5.0",
+    "blt_version": 2,
+    "priority": 100,
+    "hooks": [
+        {
+            "hook_id": "lib/managers/menumanager",
+            "script_path": "lua/delayedcalls.lua"
+        },
+        {
+            "hook_id": "lib/managers/localizationmanager",
+            "script_path": "lua/function4others.lua"
+        },
+        {
+            "hook_id": "core/lib/managers/mission/coremissionscriptelement",
+            "script_path": "lua/coremissionscriptelement.lua"
+        },
+        {
+            "hook_id": "core/lib/managers/mission/coreelementtimer",
+            "script_path": "lua/coreelementtimer.lua"
+        }
+    ],
+    "keybinds": [
+        {
+            "keybind_id": "___autocooker",
+            "name": "Toggle AutoCooker",
+            "description": "-",
+            "script_path": "lua/autocooker.lua",
+            "run_in_menu": true,
+            "run_in_game": true,
+            "localized": false
+        }
+    ]
+}

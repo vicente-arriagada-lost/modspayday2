@@ -1,0 +1,103 @@
+{
+	"menu_id" : "vmt_lmgmenu",
+	"parent_menu_id" : "vmt_mainmenu",
+	"title" : "vmt_lmgmenu_title",
+	"description" : "vmt_lmgmenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_lmg_x",
+			"title" : "lmg_x_title",
+			"description" : "x_desc",
+			"callback" : "vmt_lmg_x_call",
+			"value" : "lmg_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_lmg_y",
+			"title" : "lmg_y_title",
+			"description" : "y_desc",
+			"callback" : "vmt_lmg_y_call",
+			"value" : "lmg_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_lmg_z",
+			"title" : "lmg_z_title",
+			"description" : "z_desc",
+			"callback" : "vmt_lmg_z_call",
+			"value" : "lmg_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_lmg_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_lmg_reset_call"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "vmt_hk21",
+			"title" : "hk21_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_hk21_call",
+			"value" : "hk21_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_mg42",
+			"title" : "mg42_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_mg42_call",
+			"value" : "mg42_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_m249",
+			"title" : "m249_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_m249_call",
+			"value" : "m249_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_par",
+			"title" : "par_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_par_call",
+			"value" : "par_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_rpk",
+			"title" : "rpk_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_rpk_call",
+			"value" : "rpk_enabled",
+			"default_value" : true
+		}
+	]
+}

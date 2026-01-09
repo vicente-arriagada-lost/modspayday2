@@ -1,0 +1,256 @@
+{
+	"menu_id" : "vmt_pistolmenu",
+	"parent_menu_id" : "vmt_mainmenu",
+	"title" : "vmt_pistolmenu_title",
+	"description" : "vmt_pistolmenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_pistol_x",
+			"title" : "pistol_x_title",
+			"description" : "x_desc",
+			"callback" : "vmt_pistol_x_call",
+			"value" : "pistol_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_pistol_y",
+			"title" : "pistol_y_title",
+			"description" : "y_desc",
+			"callback" : "vmt_pistol_y_call",
+			"value" : "pistol_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_pistol_z",
+			"title" : "pistol_z_title",
+			"description" : "z_desc",
+			"callback" : "vmt_pistol_z_call",
+			"value" : "pistol_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_pistol_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_pistol_reset_call"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "vmt_lemming",
+			"title" : "lemming_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_lemming_call",
+			"value" : "lemming_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_sparrow",
+			"title" : "sparrow_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_sparrow_call",
+			"value" : "sparrow_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_b92fs",
+			"title" : "b92fs_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_b92fs_call",
+			"value" : "b92fs_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_new_raging_bull",
+			"title" : "new_raging_bull_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_new_raging_bull_call",
+			"value" : "new_raging_bull_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_c96",
+			"title" : "c96_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_c96_call",
+			"value" : "c96_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_chinchilla",
+			"title" : "chinchilla_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_chinchilla_call",
+			"value" : "chinchilla_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_glock_17",
+			"title" : "glock_17_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_glock_17_call",
+			"value" : "glock_17_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_g26",
+			"title" : "g26_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_g26_call",
+			"value" : "g26_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_g22c",
+			"title" : "g22c_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_g22c_call",
+			"value" : "g22c_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_packrat",
+			"title" : "packrat_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_packrat_call",
+			"value" : "packrat_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_colt_1911",
+			"title" : "colt_1911_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_colt_1911_call",
+			"value" : "colt_1911_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_shrew",
+			"title" : "shrew_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_shrew_call",
+			"value" : "shrew_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_deagle",
+			"title" : "deagle_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_deagle_call",
+			"value" : "deagle_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_ppk",
+			"title" : "ppk_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_ppk_call",
+			"value" : "ppk_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_usp",
+			"title" : "usp_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_usp_call",
+			"value" : "usp_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_hs2000",
+			"title" : "hs2000_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_hs2000_call",
+			"value" : "hs2000_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_mateba",
+			"title" : "mateba_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_mateba_call",
+			"value" : "mateba_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_breech",
+			"title" : "breech_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_breech_call",
+			"value" : "breech_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_peacemaker",
+			"title" : "peacemaker_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_peacemaker_call",
+			"value" : "peacemaker_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_glock_18c",
+			"title" : "glock_18c_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_glock_18c_call",
+			"value" : "glock_18c_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_p226",
+			"title" : "p226_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_p226_call",
+			"value" : "p226_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_pl14",
+			"title" : "pl14_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_pl14_call",
+			"value" : "pl14_enabled",
+			"default_value" : true
+		}
+	]
+}

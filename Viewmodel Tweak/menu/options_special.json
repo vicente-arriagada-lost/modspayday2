@@ -1,0 +1,211 @@
+{
+	"menu_id" : "vmt_specialmenu",
+	"parent_menu_id" : "vmt_mainmenu",
+	"title" : "vmt_specialmenu_title",
+	"description" : "vmt_specialmenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_special_x",
+			"title" : "special_x_title",
+			"description" : "x_desc",
+			"callback" : "vmt_special_x_call",
+			"value" : "special_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_special_y",
+			"title" : "special_y_title",
+			"description" : "y_desc",
+			"callback" : "vmt_special_y_call",
+			"value" : "special_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_special_z",
+			"title" : "special_z_title",
+			"description" : "z_desc",
+			"callback" : "vmt_special_z_call",
+			"value" : "special_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_special_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_special_reset_call"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "vmt_ecp",
+			"title" : "ecp_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_ecp_call",
+			"value" : "ecp_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_arbiter",
+			"title" : "arbiter_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_arbiter_call",
+			"value" : "arbiter_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_china",
+			"title" : "china_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_china_call",
+			"value" : "china_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_ray",
+			"title" : "ray_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_ray_call",
+			"value" : "ray_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_slap",
+			"title" : "slap_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_slap_call",
+			"value" : "slap_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_long",
+			"title" : "long_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_long_call",
+			"value" : "long_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_flamethrower_mk2",
+			"title" : "flamethrower_mk2_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_flamethrower_mk2_call",
+			"value" : "flamethrower_mk2_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_gre_m79",
+			"title" : "gre_m79_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_gre_m79_call",
+			"value" : "gre_m79_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_arblast",
+			"title" : "arblast_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_arblast_call",
+			"value" : "arblast_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_rpg7",
+			"title" : "rpg7_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_rpg7_call",
+			"value" : "rpg7_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_frankish",
+			"title" : "frankish_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_frankish_call",
+			"value" : "frankish_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_m32",
+			"title" : "m32_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_m32_call",
+			"value" : "m32_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_hunter",
+			"title" : "hunter_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_hunter_call",
+			"value" : "hunter_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_saw",
+			"title" : "saw_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_saw_call",
+			"value" : "saw_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_plainsrider",
+			"title" : "plainsrider_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_plainsrider_call",
+			"value" : "plainsrider_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_m134",
+			"title" : "m134_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_m134_call",
+			"value" : "m134_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_shuno",
+			"title" : "shuno_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_shuno_call",
+			"value" : "shuno_enabled",
+			"default_value" : true
+		}
+	]
+}

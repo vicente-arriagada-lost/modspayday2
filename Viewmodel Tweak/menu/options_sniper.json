@@ -1,0 +1,139 @@
+{
+	"menu_id" : "vmt_snipermenu",
+	"parent_menu_id" : "vmt_mainmenu",
+	"title" : "vmt_snipermenu_title",
+	"description" : "vmt_snipermenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_sniper_x",
+			"title" : "sniper_x_title",
+			"description" : "x_desc",
+			"callback" : "vmt_sniper_x_call",
+			"value" : "sniper_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_sniper_y",
+			"title" : "sniper_y_title",
+			"description" : "y_desc",
+			"callback" : "vmt_sniper_y_call",
+			"value" : "sniper_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_sniper_z",
+			"title" : "sniper_z_title",
+			"description" : "z_desc",
+			"callback" : "vmt_sniper_z_call",
+			"value" : "sniper_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_sniper_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_sniper_reset_call"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "vmt_tti",
+			"title" : "tti_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_tti_call",
+			"value" : "tti_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_desertfox",
+			"title" : "desertfox_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_desertfox_call",
+			"value" : "desertfox_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_siltstone",
+			"title" : "siltstone_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_siltstone_call",
+			"value" : "siltstone_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_wa2000",
+			"title" : "wa2000_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_wa2000_call",
+			"value" : "wa2000_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_mosin",
+			"title" : "mosin_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_mosin_call",
+			"value" : "mosin_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_model70",
+			"title" : "model70_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_model70_call",
+			"value" : "model70_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_r93",
+			"title" : "r93_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_r93_call",
+			"value" : "r93_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_winchester1874",
+			"title" : "winchester1874_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_winchester1874_call",
+			"value" : "winchester1874_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_m95",
+			"title" : "m95_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_m95_call",
+			"value" : "m95_enabled",
+			"default_value" : true
+		}
+	]
+}

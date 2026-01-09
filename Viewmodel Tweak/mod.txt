@@ -1,0 +1,22 @@
+{
+	"name" : "Viewmodel Tweak",
+	"author" : "Slippy",
+	"description" : "Makes weapon viewmodels less obtrusive and hopefully more visually appealing.",
+	"blt_version" : 2,
+	"pre_hooks": [
+		{
+			"hook_id": "lib/tweak_data/playertweakdata",
+			"script_path": "lua/ViewmodelTweak.lua"
+		}
+	],
+	"hooks" : [
+		{
+			"hook_id": "lib/tweak_data/playertweakdata",
+			"script_path": "lua/PlayerTweakData.lua"
+		},
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "lua/MenuManager.lua"
+		}
+	]
+}

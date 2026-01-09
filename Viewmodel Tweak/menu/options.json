@@ -1,0 +1,58 @@
+{
+	"menu_id" : "vmt_mainmenu",
+	"parent_menu_id" : "blt_options",
+	"title" : "vmt_mainmenu_title",
+	"description" : "vmt_mainmenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_global_x",
+			"title" : "global_x_title",
+			"description" : "global_x_desc",
+			"callback" : "vmt_global_x_call",
+			"value" : "global_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_global_y",
+			"title" : "global_y_title",
+			"description" : "global_y_desc",
+			"callback" : "vmt_global_y_call",
+			"value" : "global_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_global_z",
+			"title" : "global_z_title",
+			"description" : "global_z_desc",
+			"callback" : "vmt_global_z_call",
+			"value" : "global_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_global_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_global_reset_call"
+		},
+
+		{
+			"type" : "divider",
+			"size" : 16
+		}
+	]
+}

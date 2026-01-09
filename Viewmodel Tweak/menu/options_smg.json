@@ -1,0 +1,247 @@
+{
+	"menu_id" : "vmt_smgmenu",
+	"parent_menu_id" : "vmt_mainmenu",
+	"title" : "vmt_smgmenu_title",
+	"description" : "vmt_smgmenu_desc",
+	"back_callback" : "vmt_save_call",
+	
+	"items": [
+		{
+			"type" : "slider",
+			"id" : "vmt_smg_x",
+			"title" : "smg_x_title",
+			"description" : "x_desc",
+			"callback" : "vmt_smg_x_call",
+			"value" : "smg_x",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_smg_y",
+			"title" : "smg_y_title",
+			"description" : "y_desc",
+			"callback" : "vmt_smg_y_call",
+			"value" : "smg_y",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "slider",
+			"id" : "vmt_smg_z",
+			"title" : "smg_z_title",
+			"description" : "z_desc",
+			"callback" : "vmt_smg_z_call",
+			"value" : "smg_z",
+			"default_value" : 0,
+			"min" : -100,
+			"max" : 100,
+			"step" : 1
+		},
+		{
+			"type" : "button",
+			"id" : "vmt_smg_reset",
+			"title" : "reset_title",
+			"description" : "reset_desc",
+			"callback" : "vmt_smg_reset_call"
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "vmt_tec9",
+			"title" : "tec9_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_tec9_call",
+			"value" : "tec9_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_mp9",
+			"title" : "mp9_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_mp9_call",
+			"value" : "mp9_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_hajk",
+			"title" : "hajk_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_hajk_call",
+			"value" : "hajk_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_m1928",
+			"title" : "m1928_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_m1928_call",
+			"value" : "m1928_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_scorpion",
+			"title" : "scorpion_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_scorpion_call",
+			"value" : "scorpion_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_new_mp5",
+			"title" : "new_mp5_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_new_mp5_call",
+			"value" : "new_mp5_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_sr2",
+			"title" : "sr2_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_sr2_call",
+			"value" : "sr2_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_schakal",
+			"title" : "schakal_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_schakal_call",
+			"value" : "schakal_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_cobray",
+			"title" : "cobray_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_cobray_call",
+			"value" : "cobray_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_p90",
+			"title" : "p90_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_p90_call",
+			"value" : "p90_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_akmsu",
+			"title" : "akmsu_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_akmsu_call",
+			"value" : "akmsu_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_polymer",
+			"title" : "polymer_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_polymer_call",
+			"value" : "polymer_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_erma",
+			"title" : "erma_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_erma_call",
+			"value" : "erma_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_mac10",
+			"title" : "mac10_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_mac10_call",
+			"value" : "mac10_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_baka",
+			"title" : "baka_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_baka_call",
+			"value" : "baka_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_olympic",
+			"title" : "olympic_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_olympic_call",
+			"value" : "olympic_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_sterling",
+			"title" : "sterling_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_sterling_call",
+			"value" : "sterling_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_mp7",
+			"title" : "mp7_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_mp7_call",
+			"value" : "mp7_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_m45",
+			"title" : "m45_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_m45_call",
+			"value" : "m45_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_coal",
+			"title" : "coal_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_coal_call",
+			"value" : "coal_enabled",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "vmt_uzi",
+			"title" : "uzi_title",
+			"description" : "toggle_desc",
+			"callback" : "vmt_uzi_call",
+			"value" : "uzi_enabled",
+			"default_value" : true
+		}
+	]
+}
